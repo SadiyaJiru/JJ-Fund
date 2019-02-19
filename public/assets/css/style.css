@@ -2,17 +2,12 @@ body, html{
     height:100%;
     margin:0;
     font-size:16px;
-    font-family:"Lato", sans-serif;
+    font-family:"Amarante";
     font-weight:400;
     line-height:1.8em;
     color:#666;
-    background-color:#666;
-
+    background-color: #f2be54;
   }
-.brand-logo{
- font-weight: 900;
- 
-}
 .pimg1, .pimg2, .pimg3{
     position: relative;
   /* opacity: 0.80; */
@@ -26,18 +21,19 @@ body, html{
     */
 }
 .pimg1 {
-  background-image: url("./images/High\ school\ girls.JPG");
+  background-image: url("../images/classroom\ 6.JPG");
   /*with height, big img   100%*/
   min-height: 100%;
+  padding: 5%;
 }
 
 .pimg2 {
-  background-image: url("./images/classroom\ 6.JPG");
+  background-image: url("../images/High\ school\ girls.JPG");
   min-height: 400px;
 }
 
 .pimg3 {
-  background-image: url("./images/outside\ 2.JPG");
+  background-image: url("../images/outside\ 2.JPG");
   min-height: 400px;
 }
 
@@ -66,7 +62,7 @@ body, html{
   }
   
   .ptext .border{
-    background-color:#111;
+    background-color:#cf1717;
     color:#fff;
     padding:20px;
   }
@@ -80,30 +76,49 @@ body, html{
     min-height: 200px;
     text-align: center;
   }
-  .footer p{
+  nav{
+    background-color: #f2be54;
+    height: 100px;
   }
+
+  nav ul a:hover{
+background-color: #cf1717;
+  }
+  nav .brand-logo.center{
+height: 3.6em;
+margin-top: 0;
+
+}
   .sidenav-head{
-    background-image: url("./images/africa-boys-children-1686465.jpg");
+    background-image: url("../images/logo.png");
     background-size: 100%;
     background-repeat: no-repeat;
     padding: 20px;
+    height: 14rem;
   }
 .sidenav{
+  background-color: #f2be54;
+
 }
 
-
   .sidenav li>a {
-    color: black;
     display: block;
     font-size: 19px;
     font-weight: 500;
     /* height: 48px; */
     line-height: 48px;
     padding: 0 32px;
+    color: white;
 }
+.sidenav li>a:hover{
+  background-color: #cf1717;
+}
+
 h4{
   padding-left: 50px;
-  color: white;
+  color: #f2be54;
+  font-weight: 900;
+
 }
 @media(max-width: 375px){
   .pimg1{
