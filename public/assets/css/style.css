@@ -1,0 +1,144 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+    background-color:#666;
+
+  }
+.brand-logo{
+ font-weight: 900;
+ 
+}
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+  /* opacity: 0.80; */
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  /*
+    fixed=parallax
+    scroll = normal;
+    */
+}
+.pimg1 {
+  background-image: url("./images/High\ school\ girls.JPG");
+  /*with height, big img   100%*/
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url("./images/classroom\ 6.JPG");
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url("./images/outside\ 2.JPG");
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.ptext{
+    position:absolute;
+    top:40%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+  .ptext .border.trans{
+      background-color: transparent;
+  }
+  .footer{
+    background-color:#282e34;
+    color:#fff;
+    width:100%;
+    min-height: 200px;
+    text-align: center;
+  }
+  .footer p{
+  }
+  .sidenav-head{
+    background-image: url("./images/africa-boys-children-1686465.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+  }
+.sidenav{
+}
+
+
+  .sidenav li>a {
+    color: black;
+    display: block;
+    font-size: 19px;
+    font-weight: 500;
+    /* height: 48px; */
+    line-height: 48px;
+    padding: 0 32px;
+}
+h4{
+  padding-left: 50px;
+  color: white;
+}
+@media(max-width: 375px){
+  .pimg1{
+    background-size: cover;
+
+  }
+  section .section{
+    font-size: 1px;
+  }
+.ptext .border{
+    font-size: 10px;
+
+  }
+}
+@media(max-width: 990px){
+.ptext .border{
+    font-size: 15px;
+    text-align: center;
+
+  }
+}
+@media(max-width: 650px){
+  .ptext .border{
+      font-size: 10px;
+      text-align: center;
+  
+    }
+  }
+  @media(max-width: 325px){
+    .ptext .border{
+        font-size: 7px;
+        text-align: center;
+    
+      }
+    }
+  
+
+ 
